@@ -99,6 +99,8 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+  display: flex;
+  flex-direction: row;
 }
 .container_banner .price {
   position: absolute;
