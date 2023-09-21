@@ -11,6 +11,12 @@
   font-style: normal;
   font-weight: 300;
 }
+.container_banner .price .price_before .price_before_line, .container_banner .price, .container_banner .timer .timer_after, .container_banner .timer, .under_header_lable, .container_under_header_content, .container_under_header, .container_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   width: 390px;
   height: 1096px;
@@ -23,8 +29,6 @@
   width: 390px;
   height: 33px;
   background-color: rgb(241, 157, 47);
-  display: flex;
-  align-items: center;
 }
 
 .container_under_header {
@@ -32,16 +36,10 @@
   height: 92px;
   top: 33px;
   background-color: rgb(255, 209, 172);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container_under_header_content {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .under_header_lable {
@@ -54,9 +52,6 @@
   line-height: 13px;
   letter-spacing: 0em;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container_banner {
@@ -74,10 +69,7 @@
   border-radius: 7.1px;
   gap: 10.14px;
   background-color: rgb(241, 157, 47);
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: rgb(255, 255, 255);
 }
 .container_banner .timer .timer_before {
@@ -99,7 +91,6 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  display: flex;
   flex-direction: row;
 }
 .container_banner .price {
@@ -112,10 +103,7 @@
   border-radius: 5.68px;
   gap: 8.11px;
   background-color: rgb(55, 217, 151);
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: rgb(255, 255, 255);
 }
 .container_banner .price .price_before {
@@ -131,8 +119,6 @@
 }
 .container_banner .price .price_before .price_before_line {
   position: absolute;
-  display: flex;
-  align-items: center;
   bottom: 70%;
 }
 .container_banner .price .price_after {
@@ -284,22 +270,6 @@
 }
 .container_buy_slippers .options .select_container .option_btn:hover {
   background-color: rgba(255, 255, 255, 0.418);
-}
-.container_buy_slippers .options .select_container .select_window_color {
-  position: absolute;
-  width: 226px;
-  height: 130px;
-  padding: 10px, 12px, 10px, 12px;
-  border-radius: 16px;
-  background-color: aqua;
-}
-.container_buy_slippers .options .select_container .select_window_size {
-  position: absolute;
-  width: 200px;
-  height: 130px;
-  padding: 10px, 12px, 10px, 12px;
-  border-radius: 16px;
-  background-color: aqua;
 }
 .container_buy_slippers .btn_buy {
   width: 100%;
