@@ -1,6 +1,6 @@
 function startCountdown() {
   let interval;
-  const targetDate = new Date("2023-09-23T23:59:59");
+  const targetDate = new Date("2023-09-25T23:59:59");
   targetDate.setHours(0, 0, 0, 0);
 
   function updateCountdown() {

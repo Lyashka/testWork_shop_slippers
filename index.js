@@ -9,7 +9,7 @@ imgs.forEach(function (img) {
 
       imgs.forEach((e) => {
         if (e.src !== img.src && e.classList.contains("active") == true) {
-          +e.classList.remove("active");
+          e.classList.remove("active");
         }
       });
     }
